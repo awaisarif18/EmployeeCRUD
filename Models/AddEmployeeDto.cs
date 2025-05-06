@@ -15,5 +15,7 @@
 
         public decimal Salary { get; set; }
 
+        public int? DepartmentId { get; set; } // Nullable to allow for no department assignment
+
     }
 }
